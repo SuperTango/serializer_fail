@@ -1,0 +1,91 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SerializerFail" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_base</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/on_primary_highest_emphasis</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_base</item>
+        <item name="colorSecondaryVariant">@color/secondary_light</item>
+        <item name="colorOnSecondary">@color/on_secondary_highest_emphasis</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/surface</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="username">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineHeight" tools:targetApi="p">16dp</item>
+        <item name="android:fontFamily">@font/inter_weight_500</item>
+        <item name="android:textColor">@color/secondary_base</item>
+    </style>
+
+    <style name="username_player">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineHeight" tools:targetApi="p">16dp</item>
+        <item name="android:fontFamily">@font/inter_weight_500</item>
+        <item name="android:textColor">@color/player_secondary_base</item>
+    </style>
+
+    <style name="one_line_player">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">@font/inter_weight_500</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineHeight" tools:targetApi="p">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">51%</item>
+    </style>
+
+    <style name="button_label">
+        <item name="android:textSize">@dimen/text_size_13</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">@color/on_surface_highest_emphasis</item>
+        <item name="android:fontFamily">@font/inter_weight_500</item>
+    </style>
+
+    <style name="button_label_player">
+        <item name="android:textSize">@dimen/text_size_13</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">@color/player_on_surface_highest_emphasis</item>
+        <item name="android:fontFamily">@font/inter_weight_500</item>
+    </style>
+
+    <style name="communityStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/on_surface_highest_emphasis</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="room_title">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">@color/on_surface_highest_emphasis</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+
+    </style>
+    <style name="by">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">#B3B3BB</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="room_descri">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">#B3B3BB</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="the_clash_t">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+
+    </style>
+</resources>
